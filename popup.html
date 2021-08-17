@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="lib/jquery-3.3.1.slim.js"></script>
+        <script src="lib/popper.js"></script>
+        <script src="lib/bootstrap.js"></script>
+        <script src="options.js"></script>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="lib/bootstrap.css">
+        <style>
+            .main {
+                width: 280px;
+            }
+            body{
+                font-family: 'Lucida Grande', 'Segoe UI', Tahoma, 'DejaVu Sans', Arial, sans-serif;
+            }
+        </style>
+
+    </head>
+    <body class="main small">
+        <header class="text-center pt-2"><h6>Explorer's Freak Axie Extension</h6></header>
+        <hr class="mt-0">
+        <div class="container">
+            <div >
+                <input type="checkbox" id="enableOption" class="mr-1">
+                <label for="enableOption">Enable</label>
+            </div>
+            <div >
+                <input type="checkbox" id="minimalOption" class="mr-1">
+                <label for="minimalOption" title="All GUI features are smaller and more compact.">Use Razor's Shaved View</label>
+            </div>
+            <div >
+                <input type="checkbox" id="eggParentOption" class="mr-1">
+                <label for="eggParentOption" title="Fetch egg-parent details.">View egg parent details</label>
+            </div>
+            <div >
+                <input type="checkbox" id="showAuction" class="mr-1">
+                <label for="showAuction" title="Render auction details.">View auction details</label>
+            </div>
+            <div >
+                <input type="number" id="fireThreshold" class="mr-1">
+                <label for="fireThreshold" title="The purity that should attach fire.">Purity "fire" threshold.</label>
+            </div>
+            <div >
+                <input type="checkbox" id="usePost" class="mr-1">
+                <label for="usePost" title="Enable drag-drop posting of axies to secondary site.">Use Axie Post</label>
+            </div>
+            <div >
+                <input type="text" id="postAddress" class="mr-1">
+                <label for="postAddress" title="If using axie post - where should they be sent?">Axie postbox address.</label>
+            </div>
+            <!--
+            <div >
+                <input type="checkbox" id="showBreedsStats" class="mr-1">
+                <label for="showBreedsStats">Show breed count and stats</label>
+            </div>
+            -->
+            <a href="https://freakitties.github.io/axie/" target="_blank">More tools</a>
+      </div>
+    </body>
+</html>
